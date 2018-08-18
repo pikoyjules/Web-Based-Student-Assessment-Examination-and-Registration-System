@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+
+    <title>Zion</title>
+	
+	<meta name="author" content="your name" />
+	<meta name="description" content="" />
+
+
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	
+</head>
+<body style="background: linear-gradient(to bottom, black 0%,steelblue 50%,#000000 50%,white 50%,white 100%">
+
+<br>
+
+	<div id="page">
+		<div id="logo">
+			<div id="section">
+      <div><a href="homepage.html"><img src="title.png" alt="" /></a></div>
+      </div>
+<br>
+
+         <ul>
+            <li><a class="active" href="homepage.html">Home</a></li>
+            <li><a href="index.php">Entrance Form</a></li>
+            <li><a href="#contact">Contact</a></li>
+         </ul>
+<hr>
+<br>
+            
+<body>
+   
+
+<div id="page">
+   <div id="content">
+		<div align="center">	
+			<div class="w3-content w3-section" style="max-width:1000px">
+                <img class="mySlides" src="DSC_0128.jpg" style="width:100%">
+                <img class="mySlides" src="DSC_0029.jpg" style="width:100%">
+                <img class="mySlides" src="DSC_0274.jpg" style="width:100%">
+                <img class="mySlides" src="DSC_0188.jpg" style="width:100%">
+   </div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 3000); // Change image every 2 seconds
+}
+</script>     
+       </div>
+       </div>    
+
+</body>
+</html>
